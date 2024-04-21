@@ -1,0 +1,4 @@
+name: ChuyenExp
+version: '${project.version}'
+main: me.hoangxuanlam2007.chuyenexp.ChuyenExp
+api-version: '1.20'
