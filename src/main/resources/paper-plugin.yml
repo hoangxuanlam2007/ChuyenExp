@@ -2,3 +2,32 @@ name: ChuyenExp
 version: '${project.version}'
 main: me.hoangxuanlam2007.chuyenexp.ChuyenExp
 api-version: '1.20'
+author: 'Xuân Lâm'
+
+permissions:
+  chuyenexp:
+    default: op
+  chuyenexp.use:
+    default: op
+  baloshulker.bypass.cooldown:
+    default: op
+  baloshulker.bypass.maxtransfer:
+      default: op
+  chuyenexp.reload:
+    default: op
+commands:
+  ce:
+    description: Use Chuyenexp Plugin
+    permission: chuyenexp.use
+  help:
+    description: Show help
+    permission: chuyenexp.use
+  confirm:
+    description: confirm transaction
+    permission: chuyenexp.use
+  deny:
+    description: deny transaction
+    permission: chuyenexp.use
+  reload:
+    description: Reload the ChuyenExp Plugin
+    permission: chuyenexp.reload
