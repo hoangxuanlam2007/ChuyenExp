@@ -12,7 +12,7 @@ permissions:
   baloshulker.bypass.cooldown:
     default: op
   baloshulker.bypass.maxtransfer:
-      default: op
+    default: op
   chuyenexp.reload:
     default: op
 commands:
